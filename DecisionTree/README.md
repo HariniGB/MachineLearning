@@ -98,22 +98,23 @@ Using the 11 different features in the dataset we used Decision Tree to get the 
 ## Classification Report:
 
 
-Accuracy = TP+TN/TP+FP+FN+TN
-TP = True Positive
-FP = False Positive
-FN = False Negative
-TN = True Negative
+- TP = True Positive
+- FP = False Positive
+- FN = False Negative
+- TN = True Negative
 
-Precision = TP/TP+FP
-Recall = TP/TP+FN
-F1 Score = 2 x (Recall x Precision) / (Recall + Precision)
+**Formulas:** 
+- Accuracy = TP+TN/TP+FP+FN+TN
+- Precision = TP/TP+FP
+- Recall = TP/TP+FN
+- F1 Score = 2 x (Recall x Precision) / (Recall + Precision)
 
 
 [![Confusion Matrix](https://i.imgur.com/GI8pC6k.png)](https://i.imgur.com/GI8pC6k.png)
 
 
 ## ROC-AUC curve:
-### Score is 0.948  or 95%
+### Score is 0.944  or 94%
 
 The confusion matrix  result tells us correct and incorrect predictions. When we make a binary prediction, there can be 4 types of outcomes:
 True Positive, False Positive, True Negative and False Negative.
@@ -139,8 +140,7 @@ True Positive, False Positive, True Negative and False Negative.
 | University | [SJSU UNIVERSITY]( http://www.sjsu.edu/) |
 | Team-Name | Code Busters|
 |Professor| Mr. Arsanjani|
-|Team | [Harini Balakrishnan](https://www.linkedin.com/in/harini-balakrishnan/) | 010830755 |
-Decision Tree Classification & AUC-ROC
+|Team | [Harini Balakrishnan](https://www.linkedin.com/in/harini-balakrishnan/) | 010830755 | Decision Tree Classification & AUC-ROC
 |Team | [Ravi Katta](https://www.linkedin.com/in/ravi-shanker-katta/)  | 012127011 | Visualize Decision Tree & Classification Report
 |Team | [Anushri Srinath Aithal](https://www.linkedin.com/in/anushri-aithal/) | 012506897 | Data Cleaning & Data Fabrication
 |Team | [Sunder Thyagarajan](https://www.linkedin.com/in/sunderthyagarajan/) | 011528062 | Confusion Matrix & Data Analysis
